@@ -1,0 +1,92 @@
+:root {
+    background-color: #fffcf5
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: space-between; 
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.left_menu li {
+    margin-right: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.main_hello{
+    height: 590px;
+    display: flex;
+    align-items:center;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+
+.profile_pic {
+margin-left: 100px;
+margin-top: 300px;
+height: 500px;
+margin-bottom:300px;
+}
+
+.profile_pic img{
+    box-shadow: 10px 5px 5px red;
+}
+
+.project_layout{
+   background-color: #dfaea1;
+   display: flex;
+   align-items:center;
+   align-items:flex-start;
+   flex-direction: column;
+   font-family: "Poppins", sans-serif;
+   padding: 200px;
+}
+
+.alternate_color{
+    background-color: #dfaea1;
+}
+
+.secondary_color{
+    background-color: #895159;
+}
+
+.third_color{
+    background-color: #F4A258;
+
+}
+
+.project_one h2 {
+    margin-left: 100px;
+}
+
+.project_layout button{
+    font-family: "Poppins", sans-serif;
+    background-color: #ddd9d9;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.project_two h2 {
+    margin-left: 100px;
+}
+
+
+.project_three h2 {
+    margin-left: 100px;
+}
